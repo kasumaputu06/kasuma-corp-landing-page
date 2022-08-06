@@ -4,11 +4,38 @@
     font-size: 30px;
 }
 
+/* All */
+.button1 {
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+/* Jumbotron CSS */
+.jumbotron {
+    background-image: url(/img/jumbotron-bg.jpg);
+    background-size: cover;
+    height: 640px;
+}
+
+.jumbotron .display-4 {
+    text-align: center;
+    margin-top: 150px;
+}
+
 /* Only Dekstop */
 @media (min-width: 992px) {
     .nav-link {
         text-transform: uppercase;
         margin-right: 20px;
+    }
+
+    .jumbotron { 
+        margin-top: -75px;
+    }
+
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
     }
 
     .nav-link:hover::after {
