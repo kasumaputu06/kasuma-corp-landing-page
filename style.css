@@ -1,0 +1,23 @@
+/* Navbar CSS */
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-size: 30px;
+}
+
+/* Only Dekstop */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0e4cdd;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
