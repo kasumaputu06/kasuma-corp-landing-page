@@ -14,12 +14,20 @@
 .jumbotron {
     background-image: url(/img/jumbotron-bg.jpg);
     background-size: cover;
+    text-align: center;
     height: 640px;
 }
 
 .jumbotron .display-4 {
-    text-align: center;
-    margin-top: 150px;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 160px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 62px
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
 }
 
 /* Only Dekstop */
