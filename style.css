@@ -52,23 +52,31 @@
 }
 
 /* Utama */
-.row img {
+.row .col-6 img {
     margin-top: 100px;
 }
 
-.row h3 {
+.row .utama1 h3 {
     margin-top: 150px;
     font-size: 50px;
     font-weight: 200;
     text-transform: uppercase;
 }
 
-.row p {
-    margin-top: 30px;
+.row .utama1 p {
+    margin-top: 25px;
+    color: #ACACAC;
 }
 
-.row h3 span {
+.row .utama1 h3 span {
     font-weight: 500;
+}
+
+/* Quotes */
+.row .quotes1 h3 {
+    text-align: center;
+    margin-top: 120px;
+    font-weight: 400;
 }
 
 /* Info Panel */
