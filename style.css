@@ -51,6 +51,17 @@
     font-weight: 500;
 }
 
+.gambar1 {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.container .gambar1 h4 {
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 50px;
+}
+
 /* Info Panel */
 .info-panel {
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
