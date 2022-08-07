@@ -51,24 +51,29 @@
     font-weight: 500;
 }
 
-.row .col img {
-    margin-top: 120px;
+/* Utama */
+.row img {
+    margin-top: 100px;
 }
 
-.row .col h3 {
-    margin-top: 160px;
+.row h3 {
+    margin-top: 150px;
     font-size: 50px;
     font-weight: 200;
     text-transform: uppercase;
 }
 
-.row .col h3 span {
+.row p {
+    margin-top: 30px;
+}
+
+.row h3 span {
     font-weight: 500;
 }
 
 /* Info Panel */
 .info-panel {
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
     border-radius: 12px;
     margin-top: -110px;
     background-color: white;
