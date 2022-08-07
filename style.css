@@ -44,7 +44,7 @@
     margin-bottom: 30px;
     margin-top: 160px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    font-size: 62px
+    font-size: 42px
 }
 
 .jumbotron .display-4 span {
@@ -52,18 +52,20 @@
 }
 
 /* Utama */
-.row .col-6 img {
+.row .col-lg-6 img {
     margin-top: 100px;
 }
 
 .row .utama1 h3 {
-    margin-top: 150px;
+    margin-top: 50px;
+    text-align: center;
     font-size: 50px;
     font-weight: 200;
     text-transform: uppercase;
 }
 
 .row .utama1 p {
+    text-align: center;
     margin-top: 25px;
     color: #ACACAC;
 }
@@ -72,11 +74,13 @@
     font-weight: 500;
 }
 
-/* Quotes */
+/* Testi */
 .row .quotes1 h3 {
     text-align: center;
-    margin-top: 120px;
+    margin-top: 100px;
     font-weight: 400;
+    font-size: 25px;
+    font-style: italic;
 }
 
 /* Info Panel */
@@ -119,9 +123,26 @@
         margin-top: -75px;
     }
 
+    .row .quotes1 h3 {
+        font-size: 30px;
+    }
+
     .navbar-brand, .nav-link {
         color: white !important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+
+    .row .utama1 h3 {
+        margin-top: 120px;
+        text-align: left;
+    }
+
+    .row .utama1 p {
+        text-align: left;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px
     }
 
     .nav-link:hover::after {
